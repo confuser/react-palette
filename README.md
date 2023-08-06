@@ -8,7 +8,7 @@
 
 <p align="center">
   <a aria-label="Tests status" href="https://github.com/confuser/react-palette/actions/workflows/build.yaml">
-    <img alt="" src="https://img.shields.io/github/workflow/status/confuser/react-palette/Node.js%20CI?label=Tests&style=for-the-badge&labelColor=000000">
+    <img alt="" src="https://img.shields.io/github/actions/workflow/status/confuser/react-palette/build.yaml?label=Tests&style=for-the-badge&labelColor=000000">
   </a>
   <a aria-label="License" href="https://github.com/confuser/react-palette/blob/master/LICENSE">
     <img alt="" src="https://img.shields.io/github/license/confuser/react-palette?labelColor=000&style=for-the-badge">
