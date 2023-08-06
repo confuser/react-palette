@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import React, { Fragment, ReactNode } from "react";
 import { PaletteState, usePalette } from "./usePalette";
 
 export type PaletteProps = {
@@ -12,5 +12,5 @@ export const Palette: React.FC<PaletteProps> = ({
 }: PaletteProps) => {
   const palette = usePalette(src);
 
-  return <>{children(palette)}</>;
+  return <Fragment>{children(palette)}</Fragment>;
 };
